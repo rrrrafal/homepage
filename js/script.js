@@ -5,7 +5,7 @@ let nameHideShow = document.querySelector(".js-nameHideShow");
 let body = document.querySelector(".js-body");
 
 button.addEventListener("click", () => {
-    photo.classList.toggle("photo--hide");
+    photo.classList.toggle("header__photo--hide");
     body.classList.toggle("body--brightBackground");
     button.classList.toggle("body--brightBackground");
 
