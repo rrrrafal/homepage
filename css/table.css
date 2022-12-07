@@ -25,7 +25,7 @@
     background-color: #ffbb3e;
 }
 
-.musci__table__row:nth-child(even) {
+.table__row:nth-child(even) {
     background-color: rgba(251, 249, 247, 0.717);
 }
 
