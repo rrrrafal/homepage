@@ -1,0 +1,26 @@
+.navigation__list {
+    margin: 20px 0 20px 0;
+    font-size: 23px;
+    list-style-type: none;
+    padding: 0;
+}
+.navigation__link:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation__link:visited {
+    color: #000;
+}
+
+.navigation__link:hover {
+    color: #b05b16;
+}
+
+.navigation__link:active {
+    color: #b05b16;
+    font-size: 20px;
+    margin: 5px;
+    outline: none;
+}
+

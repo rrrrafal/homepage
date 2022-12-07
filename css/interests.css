@@ -1,0 +1,30 @@
+
+.interests__header {
+    margin: 20px 0 20px 0;
+    color: #000;
+    font-size: 23px;
+}
+.interests__interestingActivitis {
+    color: #b60000;
+}
+.interests__link:link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #b60000;
+}
+
+.interests__link:visited {
+    color: #b60000;
+}
+
+
+.interests__link:hover {
+    color: #f00505;
+}
+
+.interests__link:active {
+    color: #f00505;
+    font-size: 13px;
+    margin: 2px;
+    outline: none;
+}

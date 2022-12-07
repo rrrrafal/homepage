@@ -1,0 +1,8 @@
+.handball__head {
+    text-align: left;
+    font-size: 16px;
+}
+.handball__list {
+    list-style: circle;
+    line-height: 2;
+}

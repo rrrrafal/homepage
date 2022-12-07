@@ -1,0 +1,35 @@
+.footer {
+    margin: 40px 0 20px 0;
+    padding: 1px 2px 1px 2px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #b0b0b04d;
+}
+.footer__list {
+    margin: 20px 0 20px 0;
+    font-size: 23px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer__link:link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #b60000;
+}
+
+.footer__link:visited {
+    color: #b60000;
+}
+
+
+.footer__link:hover {
+    color: #f00505;
+}
+
+.footer__link:active {
+    color: #f00505;
+    font-size: 13px;
+    margin: 2px;
+    outline: none;
+}
