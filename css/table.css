@@ -25,11 +25,11 @@
     background-color: #ffbb3e;
 }
 
-.musci__tableRow:nth-child(even) {
+.musci__table__row:nth-child(even) {
     background-color: rgba(251, 249, 247, 0.717);
 }
 
-.tableRow:hover {
+.table__row:hover {
     background-color: #9c9b9b5b;
 }
 
