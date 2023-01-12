@@ -1,9 +1,10 @@
 # # Rafał Romańczuk - my homepage
-## demo 
+## Demo 
  url:    [https://rrrrafal.github.io/homepage/]
+
 ![photo of this page](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/webpage.png)
 
-## destcription
+## Destcription
  
 A webside presents me, i.e. Rafał Romanczuk.
 The page contains:
