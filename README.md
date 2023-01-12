@@ -1,8 +1,7 @@
 # # Rafał Romańczuk - my homepage
-![photo of this page](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/webpage.png)
-
 ## demo 
  url:    [https://rrrrafal.github.io/homepage/]
+![photo of this page](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/webpage.png)
 
 ## destcription
  
