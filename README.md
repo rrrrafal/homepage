@@ -6,7 +6,7 @@
 
 ## destcription
  
-A home page describing me, i.e. Rafał Romanczuk.
+A webside presents me, i.e. Rafał Romanczuk.
 The page contains:
 
  - description of me
@@ -23,7 +23,7 @@ You can also hide the main photo.
   - BEM
   - CSS
 
-## How to changed background/hide photo
+## How to change the background and hide photo
 I used java script to change the background and hide photo. The JS-code looks like this:
 ``` javascript
 button.addEventListener("click", () => {
@@ -41,9 +41,10 @@ button.classList.toggle("body--brightBackground");
 ```
 
 Please press the button located at the top of the page under the photo:
+
 ![photo of the button](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/button.png)
 
-## Favorite bands table
+## Table with my favorite music
 The table contains "overflow" functions in css, thanks to which we can view it more easily on smaller screens:
 ```css
 .table {
