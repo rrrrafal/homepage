@@ -22,6 +22,7 @@ You can also hide the main photo.
   - Java Script
   - BEM
   - CSS
+  - ES6+ Features
 
 ## How to change the background and hide photo
 I used java script to change the background and hide photo. The JS-code looks like this:
