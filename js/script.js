@@ -1,27 +1,39 @@
 {
     const button = document.querySelector(".js-button");
+    const body = document.querySelector(".js-body");
 
-    const togglePhotoBackgroundButton = () => {
+    function changeBackground(element) {
+        element.classList.toggle("body--brightBackground");
+    }
+    const hidePhoto = () => {
         const photo = document.querySelector(".js-photo");
+        photo.classList.toggle("header__photo--hide");
+    }
+
+    const changeTextButton = () => {
         const nameBackground = document.querySelector(".js-nameBackground");
         const nameHideShow = document.querySelector(".js-button--nameHideShow");
-        const body = document.querySelector(".js-body");
 
-        photo.classList.toggle("header__photo--hide");
-        body.classList.toggle("body--brightBackground");
-        button.classList.toggle("body--brightBackground");
-
-        if (photo.classList.contains("header__photo--hide")) {
-            nameBackground.innerText = "ciemne";
+        if (body.classList.contains("body--brightBackground")) {
             nameHideShow.innerText = "Pokaż";
+            nameBackground.innerText = "ciemne";
         } else {
-            nameBackground.innerText = "jasne";
             nameHideShow.innerText = "Ukryj";
+            nameBackground.innerText = "jasne";
         }
     }
 
-    const init = () => {
-        button.addEventListener("click", togglePhotoBackgroundButton);
+    const activityButton = () => {
+
+        changeBackground(body);
+        changeBackground(button);
+        hidePhoto();
+        changeTextButton();
     }
+
+    const init = () => {
+        button.addEventListener("click", activityButton);
+    }
+
     init();
 }
