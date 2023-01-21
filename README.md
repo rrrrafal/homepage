@@ -32,6 +32,7 @@ The code contains six functions written in Java Script such as:
 - background changing (body and button)
 - hiding or showing the photo
 - change text in the button.  
+
 This is an example function to hide a photo
 ``` javascript
     
