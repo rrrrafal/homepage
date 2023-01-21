@@ -2,7 +2,7 @@
     const button = document.querySelector(".js-button");
     const body = document.querySelector(".js-body");
 
-    function changeBackground(element) {
+    const changeBackground = (element) => {
         element.classList.toggle("body--brightBackground");
     }
     const hidePhoto = () => {
