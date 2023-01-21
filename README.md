@@ -1,5 +1,6 @@
 # # Rafał Romańczuk - my homepage
 ## Demo 
+ 
  url:    [https://rrrrafal.github.io/homepage/]
 
 ![photo of this page](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/webpage.png)
@@ -18,6 +19,7 @@ The page can be viewed with both light and dark backgrounds.
 You can also hide the main photo.
 
 ## Conventions used
+  
   - HTML
   - Java Script
   - BEM
@@ -25,20 +27,18 @@ You can also hide the main photo.
   - ES6+ Features
 
 ## How to change the background and hide photo
-I used java script to change the background and hide photo. The JS-code looks like this:
-``` javascript
-button.addEventListener("click", () => {
-photo.classList.toggle("header__photo--hide");
-body.classList.toggle("body--brightBackground");
-button.classList.toggle("body--brightBackground");
 
-    if (photo.classList.contains("photo--hide")) {
-        nameBackground.innerText = "ciemne";
-        nameHideShow.innerText = "Pokaż";
-   } else {
-        nameBackground.innerText = "jasne";
-        nameHideShow.innerText = "Ukryj";
-   }
+The code contains six functions written in Java Script such as:
+- background changing (body and button)
+- hiding or showing the photo
+- change text in the button.  
+This is an example function to hide a photo
+``` javascript
+    
+    const hidePhoto = () => {
+        const photo = document.querySelector(".js-photo");
+        photo.classList.toggle("header__photo--hide");
+    }
 ```
 
 Please press the button located at the top of the page under the photo:
@@ -46,6 +46,7 @@ Please press the button located at the top of the page under the photo:
 ![photo of the button](https://raw.githubusercontent.com/rrrrafal/homepage/main/images/button.png)
 
 ## Table with my favorite music
+
 The table contains "overflow" functions in css, thanks to which we can view it more easily on smaller screens:
 ```css
 .table {
