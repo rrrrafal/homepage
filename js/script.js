@@ -23,7 +23,7 @@
         }
     }
 
-    const activityButton = () => {
+    const onClickButton = () => {
 
         changeBackground(body);
         changeBackground(button);
@@ -32,7 +32,7 @@
     }
 
     const init = () => {
-        button.addEventListener("click", activityButton);
+        button.addEventListener("click", onClickButton);
     }
 
     init();
